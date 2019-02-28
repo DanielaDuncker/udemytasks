@@ -290,7 +290,7 @@ print(flo1, flo2, flo3)
 """
 
 
-# 23. Importing Modules
+# 22. Importing Modules
 
 
 """
@@ -313,7 +313,45 @@ square = sqrt(rand)
 exit(square)
 """
 
-print("hello")
+
+# 24. Built-In Functions
+
+
+# 1.
+print(abs(2))
+
+# 2.
+print(abs(-2))
+
+# 3.
+print(type(1.2))
+
+# 4.
+print(type(3))
+
+# 5.
+print(type(True))
+
+# 6.
+print(type("hello"))
+
+# ------------------------------------------------------------------------
+
+# 1.
+print(max(2, 7, 630, 28, 62))
+
+# 2.
+print(max("elsa", "alsa", "ilsa", "ulsa", "ylsa"))
+
+# 3.
+print(min(2, 7, 630, 28, 62))
+
+# 4.
+print(min("elsa", "alsa", "ilsa", "ulsa", "ylsa"))
+
+
+
+
 
 
 
