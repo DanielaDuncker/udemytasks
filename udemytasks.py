@@ -223,6 +223,9 @@ else:
 """
 
 
+# Section 5
+
+
 # 20. Functions
 
 
@@ -290,7 +293,7 @@ print(flo1, flo2, flo3)
 # 23. Importing Modules
 
 
-
+"""
 # 1.
 import random
 
@@ -308,7 +311,9 @@ square = sqrt(rand)
 
 # 6.
 exit(square)
+"""
 
+print("hello")
 
 
 

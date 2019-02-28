@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e23d45-c0c7-43c6-a978-54f41cb5e107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="12e23d45-c0c7-43c6-a978-54f41cb5e107" name="Default Changelist" comment="do something">
       <change beforePath="$PROJECT_DIR$/udemytasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemytasks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemytasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4267">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#3288#3301#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="370">
+              <caret line="313" column="3" lean-forward="true" selection-start-line="313" selection-start-column="3" selection-end-line="313" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -145,14 +140,15 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="do something" />
+    <option name="LAST_COMMIT_MESSAGE" value="do something" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/udemytasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4267">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#3288#3301#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="370">
+          <caret line="313" column="3" lean-forward="true" selection-start-line="313" selection-start-column="3" selection-end-line="313" selection-end-column="3" />
         </state>
       </provider>
     </entry>
