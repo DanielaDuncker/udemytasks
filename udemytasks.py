@@ -317,6 +317,7 @@ exit(square)
 # 24. Built-In Functions
 
 
+"""
 # 1.
 print(abs(2))
 
@@ -348,6 +349,16 @@ print(min(2, 7, 630, 28, 62))
 
 # 4.
 print(min("elsa", "alsa", "ilsa", "ulsa", "ylsa"))
+"""
+
+
+# Section 6
+
+
+# 26. Lists
+
+
+# 1.
 
 
 
