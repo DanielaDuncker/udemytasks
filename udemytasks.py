@@ -398,7 +398,7 @@ reAssign.append(6)
 
 # 6.
 print(reAssign)
-"""
+
 # -------------------------------------------------------------------
 
 # 1.
@@ -416,7 +416,44 @@ print(listSli[1:])
 # -------------------------------------------------------------------
 
 # 1.
-Strlist = ["Bob Dylan", ""]
+Strlist = ["Bob Dylan", "Like a", "Rolling Stone"]
+
+# 2.
+print(Strlist.index("Rolling Stone"))
+
+# 3.
+Strlist.insert(0, str(1965))
+
+# 4.
+print(Strlist)
+
+# -------------------------------------------------------------------
+
+# 1.
+surName = ["McCartney", "Lennon", "Starr", "Harrison", "Sutcliffe"]
+
+# 2.
+surName.remove("Sutcliffe")
+
+# 3.
+print(surName)
+
+# 4.
+print(surName.pop(1))
+
+# 5.
+print(surName.pop())
+
+# 6.
+print(surName)
+"""
+
+
+# 28. For Loops and Tuples
+
+
+# 1.
+
 
 
 
