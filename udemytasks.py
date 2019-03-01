@@ -358,7 +358,96 @@ print(min("elsa", "alsa", "ilsa", "ulsa", "ylsa"))
 # 26. Lists
 
 
+"""
 # 1.
+listStr = ["a", "b", "c", "d"]
+
+# 2.
+listNum = [1, 2, 3]
+
+# 3.
+listMix = ["hi", 4, "you", "are", True]
+
+# 4.
+print(listStr)
+
+# 5.
+print(listNum[1])
+
+# 6.
+print(listMix[4])
+
+# -------------------------------------------------------------------
+
+# 1.
+reAssign = [1, 2, 3]
+
+print(reAssign)
+
+# 2.
+reAssign[0] = 2
+
+# 3.
+reAssign[1] = 3
+
+# 4.
+reAssign[2] = 4
+
+# 5.
+reAssign.append(6)
+
+# 6.
+print(reAssign)
+"""
+# -------------------------------------------------------------------
+
+# 1.
+listSli = [1, 2, 3, 4, 5, 6, 7]
+
+# 2.
+print(listSli[:4])
+
+# 3.
+print(listSli[2:5])
+
+# 4.
+print(listSli[1:])
+
+# -------------------------------------------------------------------
+
+# 1.
+Strlist = ["Bob Dylan", ""]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
