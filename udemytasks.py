@@ -502,8 +502,48 @@ print(emptyLoop)
 # 30. Dictionaries
 
 
+"""
 # 1.
+dictionary1 = {"a": "1", "b": "2", "c": "3"}
 
+# 2.
+print(dictionary1["a"])
+
+# 3.
+dictionary1["d"] = 4
+
+# 4.
+print(dictionary1)
+
+# 5.
+print(len(dictionary1))
+
+# --------------------------------------------------------------
+
+# 1.
+dictionary2 ={1: "Gwen", 2: "Arthur"}
+
+# 2.
+print(dictionary2)
+
+# 3.
+dictionary2[1] = "Merlin"
+
+# 4.
+print(dictionary2)
+
+# 5.
+del dictionary2[2]
+
+# 6.
+print(dictionary2)
+"""
+
+
+# 32. Using Functions With List
+
+
+# 1.
 
 
 
