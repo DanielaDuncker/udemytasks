@@ -452,15 +452,57 @@ print(surName)
 # 28. For Loops and Tuples
 
 
+"""
 # 1.
+tupVal = (2.5, 3, True, "hello")
+
+# 2.
+print(tupVal)
+
+# 3.
+print(tupVal[1])
+
+# 4.
+print(tupVal[0])
+
+# 5.
+print(tupVal[:3])
+
+# 6.
+print(tupVal[1:])
+
+# 7.
+print(tupVal[1:3])
+
+# ----------------------------------------------------------------
+
+# 1.
+tupLoop = ("Bohr", "Leibniz", "Einstein")
+
+# 2.
+emptyLoop = []
+
+# 3.
+listLoop = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+# 4.
+for names in tupLoop:
+    print(names)
+
+# 5.
+for num in listLoop:
+    if num > 1 and num < 8:
+        emptyLoop.append(num)
+
+# 6.
+print(emptyLoop)
+"""
 
 
+# 30. Dictionaries
 
 
-
-
-
-
+# 1.
 
 
 
