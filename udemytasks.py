@@ -543,8 +543,57 @@ print(dictionary2)
 # 32. Using Functions With List
 
 
-# 1.
+"""
+# 0.
+intsList = [1, 2, 3, 4, 5,]
+strList = ["a", "b", "c", "d", "e"]
+floList = [1.1, 1.2, 1.3, 1.4, 1.5]
 
+# 1.
+def passer(aList):
+    return aList
+
+print(passer(intsList))
+print(passer(strList))
+print(passer(floList))
+
+# 2.
+def access(theList):
+    return theList
+
+print(access(intsList))
+print(access(strList))
+print(access(floList))
+
+# 3.
+def product(a):
+    print(a[0] * a[3])
+
+product(intsList)
+
+def concatenator(b):
+    holder = ""
+    for x in b:
+        holder += x
+    print(holder)
+
+concatenator(strList)
+
+def quotiet(c):
+    print(c[2] / c[1])
+
+quotiet(floList)
+
+# 4.
+
+def three(d):
+    d.append(6)
+    d.insert(0, 1)
+    d.remove(1)
+    print(d)
+
+three(intsList)
+"""
 
 
 
