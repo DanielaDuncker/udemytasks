@@ -596,9 +596,64 @@ three(intsList)
 """
 
 
+# 34.
 
 
+"""
+# 0.
+inputList = [5, 4, 3, 2, 1]
 
+# 1.
+def one_input(a_list):
+    for item in a_list:
+        print(item)
+
+one_input(inputList)
+
+# 2.
+range1 = range(10)
+range2 = range(4, 8)
+range3 = range(5, 21, 5)
+
+# 3.
+def range_return(the_return):
+    return the_return
+
+print(range_return(range1))
+
+# 4.
+def range_iterator(a_range):
+    for element in range(0, len(a_range)):
+        print(a_range[element])
+
+range_iterator(range2)
+
+# 5.
+def range_modifier(modified):
+    for items in range(0, len(modified)):
+        modified[items] += 3
+    print(modified)
+
+range_modifier(inputList)
+
+# 6.
+def two_inputs(list1, list2):
+    print(list1, list2)
+
+two_inputs(inputList, range3)
+
+# 7.
+all_strings = [["apple", "pear"], ["broccoli", "carrots", "corn"], ["pork", "beef"]]
+
+def concatenator(list_of_strings):
+    new_list = []
+    for index in range(0, len(list_of_strings)):
+        for strings in list_of_strings[index]:
+            new_list.append(strings)
+        print(new_list)
+
+concatenator(all_strings)
+"""
 
 
 
