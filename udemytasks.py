@@ -3,7 +3,6 @@
 
 # 8. Strings and Escape Sequences
 
-
 """
 # 1.
 example = "This is an example"
@@ -17,7 +16,10 @@ example3 = "This has a \"double quote escape sequence\""
 # 4.
 example4 = "This has a \'single quote escape sequence\'"
 
-print(example, example2, example3, example4)
+print(example)
+print(example2)
+print(example3)
+print(example4)
 
 
 # -------------------------------------------------
@@ -104,6 +106,7 @@ print(hiWorld)
 print(together)
 
 # ------------------------------------------------------
+
 
 # 1.
 restaurant = input("Your favorite restaurant")
@@ -596,7 +599,7 @@ three(intsList)
 """
 
 
-# 34.
+# 34. Using An Entire List Within A Function
 
 
 """
@@ -656,8 +659,94 @@ concatenator(all_strings)
 """
 
 
+# 36. While Loops
 
 
+"""
+# 1.
+a_counter = 0
+
+while a_counter < 5:
+    print("a string")
+    a_counter += 1
+
+b_counter = 1
+emp_list = []
+
+while b_counter < 4:
+    emp_list.append(b_counter)
+    b_counter += 1
+
+print(emp_list)
+
+# 2.
+break_counter = 0
+while True:
+    print("a string")
+    break_counter += 1
+    if break_counter > 5:
+        break
+
+fruit = input("What is my favourite fruit? ")
+
+while fruit != "Apple":
+    print(fruit + " is not my favourite fruit!")
+    fruit = input("What is my favourite fruit? ")
+else:
+    print("That is correct, " + fruit + " is my favourite fruit!")
+"""
+
+
+# 38. More For Loops
+
+
+# 1.
+str1 = "Borneo"
+
+for char in str1:
+    print(char)
+
+for char in range(len(str1)):
+    print(str1[char])
+
+# 2.
+intList = [0, 4, 8, 90]
+
+for ints in intList:
+    print(ints, end="X")
+
+# 3.
+dictionary = {"Mercury": 1, "Earth": 3, "Mars": 4}
+
+for key in dictionary:
+    print(str(dictionary[key]) + " " + key)
+
+# 4.
+list1 = [10, 488, 2.1, 29]
+list2 = [32, 30, 1, 0]
+
+emp = []
+for num1, num2 in zip(list1, list2):
+    emp.append(num1 + num2)
+
+print(emp)
+
+# 5.
+tup = ("scorpio", "aquarius", "pisces", "libra", "sagittarius")
+
+for index in range(len(tup) - 1):
+    print(tup[index])
+else:
+    print(tup[4])
+
+for index in range(len(tup)):
+    if index < 3:
+        print(tup[index])
+
+    else:
+        break
+else:
+    print("This should not be printed")
 
 
 
