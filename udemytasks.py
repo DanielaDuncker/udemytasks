@@ -700,6 +700,7 @@ else:
 # 38. More For Loops
 
 
+"""
 # 1.
 str1 = "Borneo"
 
@@ -747,6 +748,72 @@ for index in range(len(tup)):
         break
 else:
     print("This should not be printed")
+"""
+
+
+# 40. List Comprehension
+
+
+"""
+# 1.
+print([a for a in range(8, -1, -2)])
+
+print([b ** b for b in range(1, 5)])
+
+print([c * c - 1 for c in range(5, 8)])
+
+# 2.
+print([a for a in range(2, 10) if a !=5 and a != 6])
+
+print([b for b in range(10, 0, -1) if b > 7 or b <4])
+
+print([c for c in range(1, 11) if c != 2 and c !=3 and c != 7 and c != 8])
+"""
+
+
+# 42. List Slicing with Stride
+
+"""
+# 0.
+strider = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+# 1.
+normStride = strider[4::4]
+
+print(normStride)
+
+# 2.
+every3rd = strider[::3]
+
+print(every3rd)
+
+# 3.
+reversed = strider[::-1]
+
+print(reversed)
+"""
+
+
+# 44. Try and Except
+
+
+
+# 1.
+userInput1 = input("Enter an integer. ")
+userInput2 = input("Enter another integer. ")
+
+def type_and_zero(int1, int2):
+    try:
+        try:
+            print(int(int1) / int(int2))
+        except ZeroDivisionError:
+            print("You cannot divide by 0.")
+    except:
+        print("Both your first and second input need to be integers.")
+
+type_and_zero(userInput1,userInput2)
+
+
 
 
 

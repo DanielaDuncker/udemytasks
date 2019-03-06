@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e23d45-c0c7-43c6-a978-54f41cb5e107" name="Default Changelist" comment="do something">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemytasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/udemytasks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udemytasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
+            <state relative-caret-position="251">
+              <caret line="812" column="13" selection-start-line="812" selection-start-column="13" selection-end-line="812" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -116,7 +115,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37416106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -146,8 +144,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/udemytasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
+        <state relative-caret-position="251">
+          <caret line="812" column="13" selection-start-line="812" selection-start-column="13" selection-end-line="812" selection-end-column="13" />
         </state>
       </provider>
     </entry>
