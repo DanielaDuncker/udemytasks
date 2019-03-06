@@ -797,7 +797,7 @@ print(reversed)
 # 44. Try and Except
 
 
-
+"""
 # 1.
 userInput1 = input("Enter an integer. ")
 userInput2 = input("Enter another integer. ")
@@ -812,7 +812,7 @@ def type_and_zero(int1, int2):
         print("Both your first and second input need to be integers.")
 
 type_and_zero(userInput1,userInput2)
-
+"""
 
 
 
